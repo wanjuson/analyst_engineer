@@ -12,3 +12,6 @@ t2 <- c(1,2,3, '')
 mean(t2)
 mean(t2, na.rm = T)
 
+t3 <- c(1,2,3, '5')
+mean(t3)
+mean(t3, na.rm = T)
