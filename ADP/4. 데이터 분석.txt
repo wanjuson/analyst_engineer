@@ -1,7 +1,7 @@
 ﻿4. 데이터 분석
 ADP : https://m.blog.naver.com/PostView.naver?blogId=pouing_v&logNo=221478992938&navType=by
 
-■ R의 데이터 구조
+■ R의 데이터 구조란?
 1. 벡터 
  : 벡터데이터 구조는 하나의 스칼라값, 혹은 하나 이상의 스칼라 원소들을 갖는 단순한 형태의 집합 의미
  x=c(1,10), y=c("사과", "바나나"), z=c(TURE, FALSE)
