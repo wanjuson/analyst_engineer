@@ -188,4 +188,23 @@
 ㅁ SQL on 하둡(실시간 SQL 질의 분석 기술)
  - 아파치 DRILL(맵알), 아파치 STINGER(호튼웍스), SHARK(인메모리 기반, 하이브 호환), TAJO(그루터), IMPALA(클라우데라), HAWQ(피보탈), 프레스토(페이스북)
 
-  
+1. 하둡
+- 비공유분산 아키텍처
+- 데이터의 3 중 복제
+1) 에코시스템
+ - ZOOKIPER : 상호조정
+ - OOZIE : 워크 플로우 및 코디네이트 시스템
+ - HBASE : HDFS 기반의 컬럼 NOSQL
+ - PIG : 대용량 SQL 질의 기술 P IG Latin 언어제공
+ - HIVE : 대용량 SQL 질의 기술 , 쿼리제공
+ - Mahout 오픈소스 라이브러리
+ - Hcatalog : 하둡 기반의 테이블 및 스토리지 관리
+ - Avro : 데이터 직렬화
+ - Chukwa 분산환경에서 생성되는 데이터를 HDFS 에 안정적으로 저장
+ - Flume : 데이터수집기술
+ - Scribe : 데이터수집 플랫폼으로 데이터를 중앙집중서버에 전송
+ - Sqoop : 대용량데이터연동 솔루션
+ - Hiho : 대용량 데이터 연동 솔루션
+ - IMPALA : 실시간 SQL 질의기술
+ - TAJO : 실시간 SQL 질의기술
+ 
