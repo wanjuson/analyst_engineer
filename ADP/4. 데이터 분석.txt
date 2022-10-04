@@ -1,4 +1,4 @@
-﻿4. 데이터 분석
+﻿4. 데이터 분석 
 ADP : https://m.blog.naver.com/PostView.naver?blogId=pouing_v&logNo=221478992938&navType=by
 
 ■ R의 데이터 구조란?
