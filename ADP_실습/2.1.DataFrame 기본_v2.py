@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 # path = 'C:/adp/2data_handling/data'
 # pd.read_csv(path, 'iris.csv')
