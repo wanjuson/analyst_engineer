@@ -1,0 +1,143 @@
+SQL정리_2404
+
+ㅁ DDL : CREATE, ALTER, DROP, TRUNCATE
+
+CREATE TABLE 테이블명
+(
+ 컬럼명 데이터타입 PRIMARY KEY, -- 기본키
+ 컬럼명 데이터타입 FOREIGN KEY REFERENCES 참조테이블(기본키), -- 외래키 설정
+ 컬럼명 데이터타입 UNIQUE,
+ 컬럼명 데이터타입 NOT NULL,
+ 컬럼명 데이터타입 CHECK(조건식), -- 제약조건
+ 성별 CHAR(1) (성별 = 'M' OR 성별 = 'F'),
+ 컬럼명 데이터타입 DEFAULT 값
+)
+
+ㅇ ALTER
+- 추가
+ALTER TABLE 테이블명
+ADD 컬럼명(데이터타입) [제약조건]
+
+- 수정
+ALTER TABLE 테이블명
+MODIFY 컬럼명(데이터타입) [제약조건]
+
+- 삭제
+ALTER TABLE 테이블명
+DROP COLUMN 컬럼명 
+
+DROP TABLE 테이블명 [옵션]
+CASCADE 참조하는 테이블까지 연쇄적으로 제거하는 옵션
+RESTRICT 다른 테이블이 삭제할 테이블을 참조 중이면 제거하지 않는 옵션
+
+TRUNCATE TABLE 테이블명
+
+ㅇ VIEW
+CREATE (OR REPLACE) VIEW 뷰이름 AS
+SELECT 컬럼명
+FROM 테이블명
+WHERE 조건
+
+DROP VIEW 뷰이름
+
+ㅇ INDEX
+CREATE INDEX 인덱스명 
+ON 테이블명(컬럼명1, 컬럼명2 ...)
+
+ALTER INDEX 인덱스명
+ON 테이블명(컬럼명1, 컬럼명2 ...)
+
+DROP INDEX 인덱스명
+
+ㅁ DML SELECT INSERT UPDATE DELETE 
+UNION +(중복제외)
+UNION ALL +
+INTERSECT 교집합
+MINUS -
+
+INSERT TO 테이블명(컬럼명)
+VALUES (데이터)
+
+UPDATE 테이블명
+SET 컬럼명 = 데이터
+WHERE 조건
+
+DELETE FROM 테이블명
+WHERE 조건
+
+ㅁ DCL GRANT REVOKE
+GRANT 권한
+ON 테이블명
+TO 사용자
+
+REVOKE 권한
+ON 테이블명
+FROM 사용자
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
