@@ -36,8 +36,12 @@ ch3. 자바
  - 논리형 : boolean(1) : true, false
  . 1 : 8bit
 
+ㅁ 연산자
+!= 같지 않다. <>
 
-
+ㅁ length 함수
+x 배열의 길이는 x.length > 속성이므로
+x string의 길이는 x.length() > 메소드여서 길이를 집계해야함.
 
 
 
