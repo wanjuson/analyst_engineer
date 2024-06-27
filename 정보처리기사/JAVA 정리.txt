@@ -56,7 +56,14 @@ x string의 길이는 x.length() > 메소드여서 길이를 집계해야함.
  - trim() : 앞뒤공백을 제거후 반환, String return
  - valueOf(숫자) : 기본 타입값을 문자열로 반환, String return
 
+ㅁ 추상화
+ - 추상클래스 : 추상 메서드를 한개 이상 가진 클래스
+ . abstract 필요. 
+ - 추상메서드 : 메서드의 정의만 있고 내용이 없는 메서드
 
+ㅁ interface
+ - 여러개의 class를 연결하는 기능
+ - implements 로 설정한다. (new처럼)
 
 
 
