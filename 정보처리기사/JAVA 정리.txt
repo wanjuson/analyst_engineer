@@ -75,6 +75,14 @@ x string의 길이는 x.length() > 메소드여서 길이를 집계해야함.
 
 
 
+ㅁ 문자열에서 문자 또는 단어 추출
+1. charAt() : 문자열에서 문자 추출
+2. substring() : 문자열에서 특정 범위의 문자열(단어) 추출
+3. slice() : 문자열에서 특정 범위의 문자열(단어) 추출
+4. split() : 구분자로 여러 문자열로 분리, 원하는 문자열 추출
+https://codechacha.com/ko/javascript-extract-words-from-string/#4-split--%EA%B5%AC%EB%B6%84%EC%9E%90%EB%A1%9C-%EC%97%AC%EB%9F%AC-%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A1%9C-%EB%B6%84%EB%A6%AC-%EC%9B%90%ED%95%98%EB%8A%94-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%B6%94%EC%B6%9C
+
+
 
 
 
